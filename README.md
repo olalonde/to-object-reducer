@@ -9,7 +9,7 @@ reducer that can be used with `arr.reduce(toObject)` to convert an array
 Example:
 
 ```javascript
-[['username', 'olalonde'], ['id',1337]].reduce(toObj)
+[['username', 'olalonde'], ['id',1337]].reduce(toObj, {})
 // => { username: 'olalonde', id: 1337 }
 ```
 
@@ -33,13 +33,13 @@ const lowerCaseHeaders = (headers = {}) => Object
   .keys(headers)
   .map(key => [key, headers[key]])
   .map([key, val] => [key.toLowerCase(), val])
-  .reduce(toObject)
+  .reduce(toObject, {})
 
 // Or with ES2017 Object.entries
 const lowerCaseHeaders = (headers = {}) => Object
   .entries(headers)
   .map([key, val] => [key.toLowerCase(), val])
-  .reduce(toObject)
+  .reduce(toObject, {})
 ```
 
 ## License
