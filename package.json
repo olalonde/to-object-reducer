@@ -1,6 +1,6 @@
 {
   "name": "to-object-reducer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple array reducer function that turns an array of [[key, val],...] to an object { key: val, ... }",
   "main": "index.js",
   "scripts": {
