@@ -1,0 +1,22 @@
+{
+  "name": "to-object-reducer",
+  "version": "1.0.0",
+  "description": "Simple array reducer function that turns an array of [[key, val],...] to an object { key: val, ... }",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olalonde/to-object-reducer.git"
+  },
+  "author": "Oli Lalonde <olalonde@gmail.com> (https://syskall.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olalonde/to-object-reducer/issues"
+  },
+  "homepage": "https://github.com/olalonde/to-object-reducer#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
