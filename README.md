@@ -1,5 +1,7 @@
 # to-object-reducer
 
+[![Build Status](https://travis-ci.org/olalonde/to-object-reducer.svg?branch=master)](https://travis-ci.org/olalonde/to-object-reducer)
+
 Simple JavaScript/Node.js module which exports a `toObject`
 reducer that can be used with `arr.reduce(toObject)` to convert an array
 `[[key,value],...]` to an object `{ key: value, ... }`.
